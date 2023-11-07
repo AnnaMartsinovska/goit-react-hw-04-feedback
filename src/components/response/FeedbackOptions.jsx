@@ -1,7 +1,7 @@
 import { StyledButton } from './Response.styled';
 import propTypes from 'prop-types';
 
-export const FeedbackOptions = ({ onLeaveFeedback }) => {
+export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
   return (
     <div>
       <StyledButton onClick={() => onLeaveFeedback('good')}>Good</StyledButton>
