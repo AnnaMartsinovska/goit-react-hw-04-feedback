@@ -46,7 +46,7 @@ const Response = () => {
     return 0;
   };
 
-  const total = countPositiveFeedbackPercentage();
+  const total = countTotalFeedback();
   const options = ['good', 'neutral', 'bad'];
   return (
     <StyledWrap>
